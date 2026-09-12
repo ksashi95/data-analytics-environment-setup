@@ -32,7 +32,8 @@ data-analytics-environment-setup/
 │   ├── 05-r-jupyter.md
 │   ├── 06-sql-server.md
 │   ├── 07-vscode-sql-server.md
-│   └── 08-troubleshooting.md
+│   ├── 08-troubleshooting.md
+│   └── 09-python-data-analysis-packages.md
 ├── verification/
 │   ├── python-check.py
 │   ├── r-check.R
@@ -50,6 +51,26 @@ data-analytics-environment-setup/
 6. Install/configure SQL Server.
 7. Connect SQL Server to VS Code using the MSSQL extension.
 8. Run the verification scripts.
+9. Use the documented Python Data Analytics packages for analysis, visualization, Excel, APIs, and database workflows.
+
+## Python Data Analytics Packages
+
+The current Python environment includes a documented Data Analytics stack covering:
+
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- PyGWalker
+- Jupyter widgets (`ipywidgets`, `anywidget`, `ipylab`)
+- OpenPyXL
+- PyArrow
+- SQLAlchemy
+- DuckDB
+- Requests / HTTPX
+- BeautifulSoup4
+
+See **[Python Data Analysis Packages](docs/09-python-data-analysis-packages.md)** for installed versions, purposes, the Jupyter environment packages, and the recommended learning order.
 
 ## Important Security Note
 
